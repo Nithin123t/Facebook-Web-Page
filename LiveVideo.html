@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LiveVideo</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/410b89c28a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <div class="intro">
+            <h1>Welcome back...</h1>
+            <h4>Choose how you want to go live</h4>
+        </div>
+        <div class="liveinfo"> 
+        <div class="liveinfo1">
+            <div class="golive1">
+                <i class="fa-solid fa-video" style="color: aqua; font-size: 40px;"></i>
+            </div>
+            <div>
+                <h3>Go live</h3>
+            </div>
+        
+            <div>
+                <p><i class="fa-solid fa-user-group"></i>Go live by yourself or with others </p>
+            </div>
+            <div>
+              <p><i class="fa-solid fa-film"></i>Choose where to publish your live video </p>
+            </div>
+            <div>
+               <p><i class="fa-solid fa-gear"></i>Explore additional tools to engage your viewers </p>
+            </div>
+            <div>
+                <button class="buttonlive">
+                    <p>Go live</p>
+                  </button>
+            </div>
+        </div>
+  
+        <div class="liveinfo1">
+            <div class="golive">
+                <i class="fa-regular fa-calendar-plus" style="color: rgb(76, 0, 255); font-size: 40px;"></i>
+            </div>
+            <div>
+                <h3>Create live video event</h3>
+            </div>
+        
+            <div>
+                <p><i class="fa-regular fa-calendar-days"></i>Create an event ahead of time to share with your audience </p>
+            </div>
+            <div>
+              <p><i class="fa-solid fa-user-group"></i>Viewers can RSVP to youe event </p>
+            </div>
+            <div>
+               <p><i class="fa-solid fa-bell fa-rotate-by" style="--fa-rotate-angle: 340deg;"></i>You and your viewers will get a reminder before you go live </p>
+            </div>
+            <div>
+                <button class="buttonlive">
+                    <p>Create event</p>
+                  </button>
+            </div>
+        </div>
+        </div>
+
+        <div class="livecast">
+            <button id="live-button">Live</button>
+            <button id="schedule-button">Schedule</button>
+
+            <div id="live-body" class="body" style="display: none;">
+                <h1>Live Broadcast</h1>
+                <p>You have no live videos or events scheduled.</p>
+                <p>Try going live or scheduling a broadcast for later.</p>
+
+            </div>
+
+            <div id="schedule-body" class="body" style="display: none;">
+                <h1>Schedule Broadcast</h1>
+                <p>You have no live or events scheduled</p>
+                <p>Try going live or scheduling a broadcast for later. </p>
+            </div>      
+            
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
